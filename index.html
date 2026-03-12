@@ -7,9 +7,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flower Market</title>
 </head>
-<body class="w-11/12 m-auto mb-[500px]">
+<body class="m-auto mb-[500px]">
     <!-- nav-bar -->
-    <div class="nav-bar flex justify-between items-center">
+    <div class="w-11/12 mx-auto nav-bar flex justify-between items-center">
         <div class="nav-bar-logo">
             <img class="w-full" src="logos/logo.png" alt="">
         </div>
@@ -27,7 +27,7 @@
     </div>
 
     <!-- banner -->
-    <div class="banner flex justify-between items-end pt-10">
+    <div class="w-11/12 mx-auto banner flex justify-between items-end pt-10">
         <div class="left-side w-1/2 ">
             <h1 class="text-3xl mb-5">
                 ALWAYS <span class="text-[#E95A08] text-3xl">FRESH <br> FLOWERS</span>
@@ -42,7 +42,7 @@
     </div>
 
     <!-- main -->
-    <div class="main  mt-8 mb-20">
+    <div class="main w-11/12 mx-auto mt-8 mb-20">
         <h1 class="text-center  text-3xl"><span class="text-[#E95A08]">Our</span> Plants</h1>
         <p class="text-[#000000] opacity-50 text-center w-6/10 mb-4 mx-auto" >
             Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
@@ -101,7 +101,7 @@
 
     </div>
     <!-- trusted-badge-section -->
-     <div class="trusted-badge-section flex gap-8 justify-start items-center w-8/10 mx-auto mb-8"> 
+     <div class="trusted-badge-section  flex gap-8 justify-start items-center w-8/10 mx-auto mb-8"> 
         <div class="relative bg-[url('/images/flower-store.png')] bg-no-repeat w-[540px] h-[597px]">
 
             <img class="absolute w-3xs  top-[-100px] right-[-100px]" src="images/trusted-badge.png" alt="">
@@ -118,7 +118,7 @@
         </div>
      </div>
      <!--latest-deals-section -->
-     <div >
+     <div class="mb-16" >
         <div class="mb-8">
             <h1 class=" text-center text-3xl">
                 <span class="text-[#E95A08]">Latest</span>  Deals
@@ -154,6 +154,21 @@
             </div>
 
         </div>
+     </div>
+
+     <!--subscribing-section -->
+     <div class=" mx-auto ">
+       <div class="flex items-center justify-center bg-[url('/images/news-letter-bg.png')] bg-cover bg-no-repeat h-[500px]">
+            <div>
+                <h1 class="text-4xl mb-4 text-center text-white">Join the colorful Bunch</h1> 
+                <div class="flex ">
+                <input class="bg-white h-8 w-xl p-4 text-xs" type="text" placeholder="Write email">
+                <input class="text-white text-sm bg-[#E95A08] p-1.5 w-47" type="button" value="Subscribe">
+                </div>
+             </div>
+
+       </div>
+
      </div>
     
 </body>
